@@ -1,0 +1,10 @@
+number = int(input("Enter one number 1 -->"))
+number2 = int(input ("enter the number 2 -->"))
+ 
+if number2 <=  100:
+  print (number2)
+  print (number)
+
+elif number >= 100:
+  print(number)
+  print(number2)
