@@ -1,0 +1,12 @@
+rain = str(input("Is it raining today ---->")).lower()
+wind = str(input("Is it windy today ---->")).lower()
+
+
+
+    
+if rain == str("yes") and wind == str("yes"):
+    print ("it is too windy for an umbrella")
+if rain == str("yes") and wind == str("no"):
+    print("Take an umbrella")
+if rain == str("no") and wind == str("no"):
+    print("Have a good day")
