@@ -1,6 +1,6 @@
-num1 = int(input("Enter a number below 20 --->")
+num1 = int(input("Enter a number below 20 --->"))
 
-if num1 >= 20: 
+if num1 > 20: 
   print("to high")
 else:
   print("thank you")
