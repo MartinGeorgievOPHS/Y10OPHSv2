@@ -1,0 +1,10 @@
+count = 0
+loop = "y"
+
+while loop == "y":
+    invite = input("Who do you want to invite into the party?--->" )
+    print(invite + " has been invited")
+    count += 1
+    loop = input("Do you want to invite anyone else? Y or N--->")
+
+print(str(count) + " people have been invited")
