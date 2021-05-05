@@ -1,0 +1,11 @@
+user1 = str(input("Enter a name")
+user2 = str(input("Enter another name")
+user3 = str(input("Enter another name")
+
+while loop == True:
+    user4 = str(input("Do you want continue type no to stop entering names"))
+    if user4 == "no":
+        loop == False
+
+user4.append (user1,user2,user3)
+
