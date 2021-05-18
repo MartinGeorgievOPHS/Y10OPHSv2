@@ -1,11 +1,17 @@
-user1 = str(input("Enter a name")
-user2 = str(input("Enter another name")
-user3 = str(input("Enter another name")
+names = []
+end = True
+names.append(input("Enter a name--->"))
+names.append(input("Enter another name--->"))
+names.append(input("Enter another name--->"))
 
-while loop == True:
-    user4 = str(input("Do you want continue type no to stop entering names"))
-    if user4 == "no":
-        loop == False
+while end == True:
+    print (names)
+    names.append(input("Enter another name but can leave anytime by saying no--->"))
+    if names == "no":
+        end = False
 
-user4.append (user1,user2,user3)
+                  
+
+
+
 
