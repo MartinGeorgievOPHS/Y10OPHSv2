@@ -1,1 +1,14 @@
+food = []
+
+for i in range (4):
+    foody = (input("Enter types of food--->"))
+    food.append(foody)
+
+print(food)
+for i in range (1):
+    removefood = int(input("type a number from the list to remove it >>>"))
+    food.remove(food[removefood])
+    print(food)
+ 
+
 
