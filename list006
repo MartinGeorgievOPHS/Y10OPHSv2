@@ -1,1 +1,23 @@
 
+nums = []
+
+number  = int(input("Name one mumber-->"))
+number1 = int(input("Name one mumber-->"))
+number2 = int(input("Name one mumber-->"))
+number3 = int(input("Name one mumber-->"))
+nums.append(number)
+nums.append(number1)
+nums.append(number2)
+
+clarity = (input("Do you want the last number,Yes or no"))
+
+if clarity == "no":
+    print(nums)
+
+else:
+    nums.append(number3)
+    print(nums)
+    
+    
+    
+
