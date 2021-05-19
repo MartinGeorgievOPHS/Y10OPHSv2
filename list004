@@ -1,1 +1,12 @@
 
+names=[]
+
+names.append(input("Name one tv program--->"))
+
+names.append(input("Name another tv program--->"))
+
+names.append(input("Name one more tv program--->"))
+
+names.append(input("Name one final tv program--->"))
+
+print (names)
