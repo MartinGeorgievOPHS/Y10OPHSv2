@@ -1,12 +1,12 @@
 
-names=[]
+tvprogram = ["North","East","West","South"]
 
-names.append(input("Name one tv program--->"))
+for (i) in tvprogram:
+    print(i)
 
-names.append(input("Name another tv program--->"))
 
-names.append(input("Name one more tv program--->"))
+TV = str(input("Enter another program >>>"))
+location = int(input("Enter a location between 0 and 4--->"))
 
-names.append(input("Name one final tv program--->"))
-
-print (names)
+tvprogram.insert(location, TV)
+print(tvprogram)
