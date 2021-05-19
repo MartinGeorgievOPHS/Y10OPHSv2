@@ -1,1 +1,26 @@
+print("League Registration")
+
+Firstname = str(input("Enter your first name"))
+
+Lastname = str(input("Enter your last name"))
+
+Nickname = str(input("Enter your nickname"))
+
+Email = str(input("Enter your email address"))
+
+
+
+Skill = str(input("Enter your skill level"))
+
+
+if Skill == "E":
+    print("Expert")
+
+else:
+    print("C")
+
+print(Firstname,Lastname,Nickname,Email)
+
+Ask = str(input("If any of the details are wrong press y to restart")
+
 
