@@ -23,11 +23,24 @@ while End == False:
     else:
         print("Casual")
 
-    print(Firstname,Lastname,Nickname,Email,Skill)
+    print("")
+    print(Lastname)
+    print("")
+    print(Nickname)
+    print("")
+    print(Email)
+    print("")
+    print(Skill)
+    
 
     Ask = str(input("If any of the details are wrong press y to restart,if not press n--->"))
 
 if Ask == n:
+    print("Welcome, you are now registered")
     End == True
-    
+
+else:
+    print("Rewrite the information")
+
         
+
