@@ -1,1 +1,9 @@
+print("Hello,welcome to the entry fee")
 
+email = str(input("Enter your email address"))
+skill = str(input("Enter your skil level - E for expert and C for casual"))
+country = str(input("Enter your country,between the UK,US and AU"))
+
+pound =("1.00 UK dollars")
+pound1=("1.50 US dollars")
+pound2=("2.00 AU dollars")
