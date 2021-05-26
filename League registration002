@@ -1,9 +1,49 @@
+End = False
+
+while end = False:
+
 print("Hello,welcome to the entry fee")
 
-email = str(input("Enter your email address"))
-skill = str(input("Enter your skil level - E for expert and C for casual"))
-country = str(input("Enter your country,between the UK,US and AU"))
+email = str(input("Enter your email address--->"))
+skill = str(input("Enter your skil level - E for expert and C for casual--->"))
+country = str(input("Enter your currency,between the UK,US and AU--->"))
 
-pound =("1.00 UK dollars")
-pound1=("1.50 US dollars")
-pound2=("2.00 AU dollars")
+fee = +10
+
+
+
+if country == "UK":
+    if skill == "E":
+        fee = +45
+
+    else:
+        fee = +35
+
+    print (fee)
+
+
+if country == "US":
+    if skill == "E":
+        fee = +67.5
+
+    else:
+        fee = +52.5
+
+    print (fee)
+
+if country == "AU":
+    if skill == "E":
+        fee = +90
+
+    else:
+        fee = +70
+
+    print (fee)
+
+
+    
+    
+
+
+    
+
