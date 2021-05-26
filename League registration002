@@ -1,49 +1,54 @@
 End = False
 
-while end = False:
-
-print("Hello,welcome to the entry fee")
-
-email = str(input("Enter your email address--->"))
-skill = str(input("Enter your skil level - E for expert and C for casual--->"))
-country = str(input("Enter your currency,between the UK,US and AU--->"))
-
-fee = +10
-
-
-
-if country == "UK":
-    if skill == "E":
-        fee = +45
-
-    else:
-        fee = +35
-
-    print (fee)
-
-
-if country == "US":
-    if skill == "E":
-        fee = +67.5
-
-    else:
-        fee = +52.5
-
-    print (fee)
-
-if country == "AU":
-    if skill == "E":
-        fee = +90
-
-    else:
-        fee = +70
-
-    print (fee)
-
-
-    
+while End == False:
     
 
+    print("Hello,welcome to the entry fee")
+
+    email = str(input("Enter your email address--->"))
+    skill = str(input("Enter your skil level - E for expert and C for casual--->"))
+    country = str(input("Enter your currency,between the UK,US and AU--->"))
+
+    fee = +10
+
+
+
+    if country == "UK":
+        if skill == "E":
+            fee = +45
+
+        else:
+            fee = +35
+
+        print (fee)
+
+
+    if country == "US":
+        if skill == "E":
+            fee = +67.5
+
+        else:
+            fee = +52.5
+
+        print (fee)
+
+    if country == "AU":
+        if skill == "E":
+            fee = +90
+
+        else:
+            fee = +70
+
+        print (fee)
+        
+
+    calculate  = str(input("Do you want to calculate a fee again,Yes or no --->"))
+
+    if calculate == "yes" or "Yes" or "YEs" or "YES":
+        End = False
+
+    else:
+        End = True
 
     
 
