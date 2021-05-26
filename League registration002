@@ -44,11 +44,14 @@ while End == False:
 
     calculate  = str(input("Do you want to calculate a fee again,Yes or no --->"))
 
-    if calculate == "yes" or "Yes" or "YEs" or "YES":
-        End = False
+    if calculate == "yes":
+      End = False
 
     else:
-        End = True
+      
+       End = True
+
+
 
     
 
